@@ -30,6 +30,23 @@ h4{
     width: 50%;
 }
 
+.relative{
+    position: relative;
+}
+
+.y-centre{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.xy-centre{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .btn{
     display: inline-block;
     min-width: 100px;
@@ -113,6 +130,7 @@ a.btn > li{
 
 /* MAIN */
 
+/* HERO SECTION */
 .hero{
     height: 500px;
     background-color: #0d325a;
@@ -123,7 +141,6 @@ a.btn > li{
 }
 
 .hero .container{
-    position: relative;
     height: 100%;
 }
 
@@ -137,4 +154,18 @@ a.btn > li{
     font-size: 46px;
     color: white;
     margin-bottom: 20px;
+}
+
+/* INTRODUCTION SECTION */
+
+.introduction{
+    height: 100px;
+    padding:20px;
+    background-color: #d3d3d3;
+}
+
+.introduction h3{
+    font-size: 23px;
+    color:black;
+    margin-bottom: 10px;
 }

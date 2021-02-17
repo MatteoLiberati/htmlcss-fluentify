@@ -3,4 +3,99 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #8a8a8a;
+    font-size: 11px;
+}
+
+/* UTILIETIES */
+.container{
+    width: 1100px;
+    margin: auto;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.btn{
+    display: inline-block;
+    min-width: 100px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    padding: 8px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.btn-green{
+    background-color: #7cbb01;
+    color: white;
+    border: 1px solid transparent;
+}
+
+/* HEADER */
+header{
+    background-color: #0d325a;
+    padding-top: 10px;
+}
+
+header .container section{
+    float:left;
+}
+
+/* LOGO SECTION */
+header .logo{
+    width: 15%;
+}
+
+.logo img{
+    vertical-align: middle;
+}
+
+/* NAV GENERAL*/
+header nav ul li{
+    display: inline-block;
+    line-height: 50px;
+    text-transform: uppercase;
+    list-style: none;
+    color: white;
+}
+
+header nav a{
+    text-decoration: none;
+}
+
+/* NAV CENTRE */
+header .navcentre{
+    width: 45%;
+}
+
+header .navcentre li{
+    margin-right: 12px;
+}
+
+header .navcentre a:last-child li{
+    margin-right: 0;
+}
+
+/* NAV RIGHT */
+header .navright{
+    width: 40%;
+    text-align: right;
+}
+
+header .navright a{
+    margin-left:20px;
+}
+
+header .navright a:first-child{
+    margin-left:0;
+}
+
+a.btn > li{
+    line-height: 1;
 }

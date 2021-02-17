@@ -16,7 +16,7 @@ h4{
 
 /* UTILIETIES */
 .container{
-    width: 1150px;
+    width: 1000px;
     margin: auto;
 }
 
@@ -168,4 +168,42 @@ a.btn > li{
     font-size: 23px;
     color:black;
     margin-bottom: 10px;
+}
+
+/* TEACHING PROGRAM SECTION*/
+.teaching-program{
+    height:300px;
+    text-align: center;
+}
+.teaching-program section{
+    float:left;
+    width: calc(100% / 3);
+    margin-top: 20px;
+}
+
+.teaching-program img{
+    max-height: 150px;
+}
+
+.teaching-program h3{
+    font-size: 23px;
+    color:#7cbb01;
+}
+
+.teaching-program section hr{
+    display: inline-block;
+    border-color: #cecece;
+    width: 20%;
+    margin: 20px 0;
+}
+
+.teaching-program p{
+    font-size: 15px;
+}
+
+.teaching-program > hr{
+    display: inline-block;
+    border-color: #cecece;
+    width: 98%;
+    margin: 25px 0;;
 }

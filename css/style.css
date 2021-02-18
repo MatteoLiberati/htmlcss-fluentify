@@ -288,3 +288,13 @@ footer h2{
     padding: 18px 8px;
     line-height: 1;
 }
+
+/* HELP BUTTON */
+.help{
+    position: fixed;
+    bottom:0;
+    right: 20%;
+    font-size: 11px;
+    min-width: 15px;
+    z-index: 9;
+}

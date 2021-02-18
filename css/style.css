@@ -239,3 +239,52 @@ section.level > div{
     font-size: 12px;
     color: #5888bd;
 }
+
+/* FOOTER */
+footer{
+    margin-top: 20px;
+    height:120px;
+    background-color: #d3d3d3;
+}
+
+footer .container{
+    height: 100%;
+}
+
+.your-plan{
+    float: left;
+    width: 60%;
+    line-height: 120px;
+}
+
+footer h2{
+    font-size: 25px;
+    color: black;
+}
+
+.form-plan{
+    float: left;
+    width: 40%;
+    line-height: 120px;
+    text-align: right;
+}
+
+.form-plan select{
+    background-color: transparent;
+    width: 150px;
+    font-size: 15px;
+    border:none;
+    border-bottom: 1px solid #8a8a8a;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.form-plan select option{
+    background-color:  #d3d3d3;
+}
+
+.form-plan > .btn{
+    font-size: 11px;
+    padding: 18px 8px;
+    line-height: 1;
+}

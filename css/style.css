@@ -433,6 +433,10 @@ section.level > div{
     color: black;
 }
 
+.devices h2 span{
+    color:  #7cbb01;
+}
+
 .devices p:nth-child(3){
     font-size: 12px;
 }
@@ -526,3 +530,21 @@ section.level > div{
     border-color: #83AF1F;
     color: #83AF1F;
 }
+
+/* FAQS SECTION */
+.faqs{
+    background-color: #0d325a;
+}
+
+.faqs-content{
+    padding: 30px 0px 30px;
+}
+
+.faqs-content h3{
+    color: white;
+}
+
+.faqs-content span{
+    color: #C18833;
+}
+

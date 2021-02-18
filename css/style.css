@@ -131,6 +131,14 @@ a.btn > li{
     line-height: 1;
 }
 
+header .navright ul a:nth-child(2):hover{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+header .navright ul a:last-child:hover{
+    background-color: rgba(124, 187, 1, 0.80);
+}
+
 /* MAIN */
 
 /* HERO SECTION */
@@ -157,6 +165,10 @@ a.btn > li{
     font-size: 46px;
     color: white;
     margin-bottom: 20px;
+}
+
+.content-hero a:hover{
+    background-color: rgba(124, 187, 1, 0.80);
 }
 
 /* INTRODUCTION SECTION */
@@ -292,6 +304,10 @@ footer h2{
     line-height: 1;
 }
 
+.form-plan > .btn:hover{
+    background-color: rgb(33, 160, 8);
+}
+
 /* HELP BUTTON */
 .help{
     position: fixed;
@@ -300,4 +316,8 @@ footer h2{
     font-size: 11px;
     min-width: 15px;
     z-index: 9;
+}
+
+.help:hover{
+    font-size: 16px;
 }

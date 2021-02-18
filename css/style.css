@@ -56,6 +56,8 @@ h4{
     padding: 8px;
     border: 1px solid white;
     border-radius: 5px;
+    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s;
 }
 
 .btn-green{
@@ -69,6 +71,8 @@ header{
     background-color: #0d325a;
     padding-top: 10px;
     position: fixed;
+    top:0;
+    left:0;
     width: 100%;
     z-index: 10;
 }
@@ -133,10 +137,14 @@ a.btn > li{
 
 header .navright ul a:nth-child(2):hover{
     background-color: rgba(0, 0, 0, 0.7);
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
 }
 
 header .navright ul a:last-child:hover{
     background-color: rgba(124, 187, 1, 0.80);
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
 }
 
 /* MAIN */
@@ -169,6 +177,7 @@ header .navright ul a:last-child:hover{
 
 .content-hero a:hover{
     background-color: rgba(124, 187, 1, 0.80);
+    transform: scale(1.1);
 }
 
 /* INTRODUCTION SECTION */
@@ -292,6 +301,21 @@ footer h2{
     border-bottom: 1px solid #8a8a8a;
     margin: 0 20px;
     cursor: pointer;
+    -webkit-appearance: none;
+    appearance: none;
+    background: url("../img/caret-down-solid.svg");
+    background-repeat: no-repeat;
+    background-size: 5%;
+    background-position-x: 98%;
+    background-position-y: center;
+}
+
+.form-plan select:focus{
+    background: url("../img/caret-left-solid.svg");
+    background-repeat: no-repeat;
+    background-size: 3%;
+    background-position-x: 98%;
+    background-position-y: center;
 }
 
 .form-plan select option{
@@ -306,6 +330,8 @@ footer h2{
 
 .form-plan > .btn:hover{
     background-color: rgb(33, 160, 8);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 /* HELP BUTTON */
@@ -320,5 +346,6 @@ footer h2{
 }
 
 .help:hover{
-    font-size: 16px;
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
 }

@@ -46,7 +46,7 @@ h4{
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
+/* BUTTON */
 .btn{
     display: inline-block;
     min-width: 100px;
@@ -64,6 +64,22 @@ h4{
     background-color: #7cbb01;
     color: white;
     border: 1px solid transparent;
+}
+
+/* HELP BUTTON */
+.help{
+    position: fixed;
+    bottom:0;
+    right: 20%;
+    font-size: 11px;
+    min-width: 15px;
+    border-radius: 5px 5px 0 0;
+    z-index: 9;
+}
+
+.help:hover{
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
 }
 
 /* HEADER */
@@ -264,14 +280,14 @@ section.level > div{
     color: #5888bd;
 }
 
-/* FOOTER */
-footer{
+/* SELECT LEVEL */
+.select-level{
     margin-top: 20px;
     height:120px;
     background-color: #d3d3d3;
 }
 
-footer .container{
+.select-level .container{
     height: 100%;
 }
 
@@ -281,7 +297,7 @@ footer .container{
     line-height: 120px;
 }
 
-footer h2{
+.select-level h2{
     font-size: 25px;
     color: black;
 }
@@ -334,18 +350,54 @@ footer h2{
     transform: scale(1.1);
 }
 
-/* HELP BUTTON */
-.help{
-    position: fixed;
-    bottom:0;
-    right: 20%;
-    font-size: 11px;
-    min-width: 15px;
-    border-radius: 5px 5px 0 0;
-    z-index: 9;
+/* SECTION REAL LIFE ENGLISH */
+
+.real-life .w-50{
+    float: left;
+    margin-top: 10px;
 }
 
-.help:hover{
-    transform: scale(1.5);
-    -webkit-transform: scale(1.5);
+.real-life w-50 > img{
+    width: 100%;
+}
+
+.real-life-content{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 80%;
+}
+
+.real-life-content h2{
+    font-size: 25px;
+    margin: 20px 0px 30px;
+    color: black;
+}
+
+.real-life-content p{
+    margin-bottom: 25px;
+}
+
+.real-life-content a.btn{
+    float: left;
+    text-align: left;
+    font-size: 12px;
+    /* width: 180px; */
+    width: 50%;
+    line-height: 1;
+    padding: 10px 35px 10px 20px;
+}
+
+.real-life-content .clearfix a.btn:hover{
+    background-color:rgb(33, 160, 8);
+    transform: scale(1.0);
+}
+
+.real-life-content .clearfix .text-near-button{
+    padding-top: 2px;
+    float: left;
+    text-align: center;
+    height: 45px;
+    width: 50%;
+    color: rgb(119, 188, 190);
 }

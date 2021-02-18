@@ -474,3 +474,55 @@ section.level > div{
     background-color:rgb(33, 160, 8);
     transform: scale(1.1);
 }
+
+/* STRUCTURE A PLAN SECTION*/
+.structure-a-plan{
+    margin-bottom: 80px;
+}
+
+.structure-a-plan > h3{
+    text-align: center;
+    margin: 80px 0px 40px;
+    color: black;
+}
+
+.structure-a-plan > div{
+    float:left;
+    width: calc(100% / 3);
+    padding: 28px
+}
+
+.structure-a-plan img{
+    height: 50px;
+}
+
+.structure-a-plan h4{
+    margin: 20px 0;
+    color: black;
+}
+
+.structure-a-plan .container-p{
+    height: 80px;
+}
+
+.structure-a-plan hr{
+    display: inline-block;
+    width: 100%;
+    border: 3px solid rgb(178,200,234);
+}
+
+.structure-a-plan a{
+    color: rgb(178,200,234);
+}
+
+.professional-plan hr,
+.professional-plan a{
+    border-color: #D6B54A;
+    color: #D6B54A;
+}
+
+.company-plan hr,
+.company-plan a{
+    border-color: #83AF1F;
+    color: #83AF1F;
+}

@@ -355,6 +355,8 @@ section.level > div{
 .real-life .w-50{
     float: left;
     margin-top: 10px;
+    min-height: 280px;
+    margin-bottom: 200px;
 }
 
 .real-life w-50 > img{
@@ -365,7 +367,7 @@ section.level > div{
     position: absolute;
     top: 0;
     right: 0;
-    width: 80%;
+    width: 80%; 
 }
 
 .real-life-content h2{
@@ -382,7 +384,6 @@ section.level > div{
     float: left;
     text-align: left;
     font-size: 12px;
-    /* width: 180px; */
     width: 50%;
     line-height: 1;
     padding: 10px 35px 10px 20px;
@@ -390,14 +391,43 @@ section.level > div{
 
 .real-life-content .clearfix a.btn:hover{
     background-color:rgb(33, 160, 8);
-    transform: scale(1.0);
+    transform: scale(1.1);
 }
 
 .real-life-content .clearfix .text-near-button{
-    padding-top: 2px;
+    padding: 3px 0px 0px 8px;
     float: left;
     text-align: center;
     height: 45px;
     width: 50%;
     color: rgb(119, 188, 190);
 }
+
+/* DEVICES */
+
+.real-life .devices{
+   width: 55%;
+   margin: auto; 
+   text-align:center;
+}
+
+.devices h2{
+    font-size: 25px;
+    margin-top: 10px;
+    color: black;
+}
+
+.devices p:nth-child(3){
+    font-size: 12px;
+}
+
+.devices p{
+    margin-top: 20px;
+}
+
+.devices a{
+    display: inline-block;
+    margin: 20px 0px 80px;
+    color: rgb(119, 188, 190)
+}
+

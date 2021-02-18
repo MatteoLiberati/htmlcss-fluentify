@@ -548,3 +548,43 @@ section.level > div{
     color: #C18833;
 }
 
+/* FOOTER */
+footer{
+    background-color: #17416B;
+    padding: 35px 0 35px;
+}
+
+footer h5{
+    color: white;
+}
+
+/* DATA AGENCY */
+.data-agency{
+    float: left;
+}
+
+.data-agency ul li{
+    list-style: none;
+    font-size: 12px;
+    padding-top: 8px;
+    text-decoration: none;
+}
+
+.data-agency ul a{
+    text-decoration: none;
+}
+
+/* COPYRIGHT */
+.copyright{
+    float: left;
+    text-align: right;
+}
+
+.copyright > h5{
+    margin-bottom: 30px;
+}
+
+.copyright > span{
+    display: block;
+    font-size: 12px;
+}

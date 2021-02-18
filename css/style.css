@@ -14,6 +14,20 @@ h4{
     font-weight: 500;
 }
 
+h2,
+h3,
+h4{
+    color:black;
+}
+
+h2{
+    font-size: 25px;
+}
+
+h3{
+     font-size: 23px;
+}
+
 /* UTILIETIES */
 .container{
     width: 1000px;
@@ -50,6 +64,10 @@ h4{
     position: relative;
 }
 
+.float-left{
+    float: left;
+}
+
 .y-centre{
     position: absolute;
     top: 50%;
@@ -62,6 +80,11 @@ h4{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.bg-color{
+    background-color: #0d325a;
+}
+
 /* BUTTON */
 .btn{
     display: inline-block;
@@ -100,7 +123,6 @@ h4{
 
 /* HEADER */
 header{
-    background-color: #0d325a;
     padding-top: 10px;
     position: fixed;
     top:0;
@@ -110,7 +132,6 @@ header{
 }
 
 header .container section{
-    float:left;
     font-size: 11px;
 }
 
@@ -180,11 +201,9 @@ header .navright ul a:last-child:hover{
 }
 
 /* MAIN */
-
 /* HERO SECTION */
 .hero{
     height: 500px;
-    background-color: #0d325a;
     background-image: url("../img/background-header.png");
     background-repeat: no-repeat;
     background-size: 50%;
@@ -202,9 +221,8 @@ header .navright ul a:last-child:hover{
 }
 
 .hero h1{
-    font-size: 46px;
     color: white;
-    margin-bottom: 20px;
+    font-size: 46px;
 }
 
 .content-hero a:hover{
@@ -218,12 +236,6 @@ header .navright ul a:last-child:hover{
     height: 100px;
     padding:20px;
     background-color: #d3d3d3;
-}
-
-.introduction h3{
-    font-size: 23px;
-    color:black;
-    margin-bottom: 10px;
 }
 
 /* TEACHING PROGRAM SECTION*/
@@ -242,7 +254,6 @@ header .navright ul a:last-child:hover{
 }
 
 .teaching-program h3{
-    font-size: 23px;
     color:#7cbb01;
 }
 
@@ -265,11 +276,6 @@ header .navright ul a:last-child:hover{
 }
 
 /* LEVEL SECTION */
-
-section.level > div{
-    float:left;
-}
-
 /* LEVEL IMG */
 .level .level-img img{
     max-height: 350px;
@@ -280,15 +286,8 @@ section.level > div{
     padding: 0px 50px;
 }
 
-.level .level-content h2{
-    color:black;
-    font-size: 25px;
-    margin-bottom: 10px;
-}
-
 .level .level-content p{
     font-size: 15px;
-    margin-bottom: 10px;
 }
 
 .level .level-content a{
@@ -298,7 +297,6 @@ section.level > div{
 
 /* SELECT LEVEL */
 .select-level{
-    margin-top: 20px;
     height:120px;
     background-color: #d3d3d3;
 }
@@ -308,18 +306,11 @@ section.level > div{
 }
 
 .your-plan{
-    float: left;
     width: 60%;
     line-height: 120px;
 }
 
-.select-level h2{
-    font-size: 25px;
-    color: black;
-}
-
 .form-plan{
-    float: left;
     width: 40%;
     line-height: 120px;
     text-align: right;
@@ -346,7 +337,7 @@ section.level > div{
     background: url("../img/caret-left-solid.svg");
     background-repeat: no-repeat;
     background-size: 3%;
-    background-position-x: 98%;
+    background-position-x: 95%;
     background-position-y: center;
 }
 
@@ -367,10 +358,7 @@ section.level > div{
 }
 
 /* SECTION REAL LIFE ENGLISH */
-
 .real-life .w-50{
-    float: left;
-    margin-top: 10px;
     min-height: 280px;
     margin-bottom: 200px;
 }
@@ -387,17 +375,10 @@ section.level > div{
 }
 
 .real-life-content h2{
-    font-size: 25px;
     margin: 20px 0px 30px;
-    color: black;
-}
-
-.real-life-content p{
-    margin-bottom: 25px;
 }
 
 .real-life-content a.btn{
-    float: left;
     text-align: left;
     font-size: 12px;
     width: 50%;
@@ -412,7 +393,6 @@ section.level > div{
 
 .real-life-content .clearfix .text-near-button{
     padding: 3px 0px 0px 8px;
-    float: left;
     text-align: center;
     height: 45px;
     width: 50%;
@@ -420,17 +400,10 @@ section.level > div{
 }
 
 /* DEVICES */
-
 .real-life .devices{
    width: 55%;
    margin: auto; 
    text-align:center;
-}
-
-.devices h2{
-    font-size: 25px;
-    margin-top: 10px;
-    color: black;
 }
 
 .devices h2 span{
@@ -441,10 +414,6 @@ section.level > div{
     font-size: 12px;
 }
 
-.devices p{
-    margin-top: 20px;
-}
-
 .devices a{
     display: inline-block;
     margin: 20px 0px 80px;
@@ -452,11 +421,6 @@ section.level > div{
 }
 
 /* YOUR COMPANY SECTION */
-
-.your-company{
-    background-color: #0d325a;
-}
-
 .text-your-company{
     width: 27%;
     padding: 40px 0px;
@@ -487,7 +451,6 @@ section.level > div{
 .structure-a-plan > h3{
     text-align: center;
     margin: 80px 0px 40px;
-    color: black;
 }
 
 .structure-a-plan > div{
@@ -502,40 +465,38 @@ section.level > div{
 
 .structure-a-plan h4{
     margin: 20px 0;
-    color: black;
 }
 
 .structure-a-plan .container-p{
     height: 80px;
 }
 
-.structure-a-plan hr{
-    display: inline-block;
-    width: 100%;
-    border: 3px solid rgb(178,200,234);
+.structure-a-plan .color-line{
+    height: 5px;
+    background-color: rgb(178,200,234);
 }
 
 .structure-a-plan a{
     color: rgb(178,200,234);
 }
 
-.professional-plan hr,
+.professional-plan .color-line{
+    background-color: #D6B54A;
+}
+
 .professional-plan a{
-    border-color: #D6B54A;
     color: #D6B54A;
 }
 
-.company-plan hr,
+.company-plan .color-line{
+    background-color: #83AF1F;
+}
+
 .company-plan a{
-    border-color: #83AF1F;
     color: #83AF1F;
 }
 
 /* FAQS SECTION */
-.faqs{
-    background-color: #0d325a;
-}
-
 .faqs-content{
     padding: 30px 0px 30px;
 }
@@ -544,8 +505,9 @@ section.level > div{
     color: white;
 }
 
-.faqs-content span{
+.faqs-content a{
     color: #C18833;
+    text-decoration: none;
 }
 
 /* FOOTER */
@@ -559,10 +521,6 @@ footer h5{
 }
 
 /* DATA AGENCY */
-.data-agency{
-    float: left;
-}
-
 .data-agency ul li{
     list-style: none;
     font-size: 12px;
@@ -576,7 +534,6 @@ footer h5{
 
 /* COPYRIGHT */
 .copyright{
-    float: left;
     text-align: right;
 }
 
